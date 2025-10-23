@@ -9,10 +9,8 @@ P = 10000  # Principal amount
 R = 5      # Rate of interest
 T = 3      # Time in years
 
-# Calculations
 simple_interest = calculate_simple_interest(P, R, T)
 compound_interest = calculate_compound_interest(P, R, T)
 
-# Output
 print(f"Simple Interest: ₹{simple_interest}")
 print(f"Compound Interest: ₹{round(compound_interest, 2)}")
